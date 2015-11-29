@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 /*
 	Read Only by HTML5 UP
@@ -1556,7 +1556,7 @@
 
 	body, input, select, textarea {
 		color: #888;
-		font-family: "Lato", sans-serif;
+		font-family: "Open Sans", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -1574,7 +1574,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #007082 !important;
 		}
 
 	strong, b {
@@ -1726,7 +1726,7 @@
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #007082;
 		font-size: 3.5em;
 	}
 
@@ -1789,7 +1789,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #007082;
 		}
 
 	.select-wrapper {
@@ -1893,13 +1893,13 @@
 		input[type="radio"]:checked + label:before {
 			background: #989898;
 			border-color: #989898;
-			color: #ffffff;
+			color: #8AB9B5;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #007082;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2092,9 +2092,9 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #4acaa8;
+					background: #007082;
 					border-radius: 100%;
-					color: #ffffff;
+					color: #8AB9B5;
 					display: block;
 					height: 2.5em;
 					left: 0;
@@ -2280,7 +2280,7 @@
 		background-color: #989898;
 		border-radius: 5px;
 		border: 0;
-		color: #ffffff !important;
+		color: #8AB9B5 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
@@ -2297,7 +2297,7 @@
 		input[type="button"]:hover,
 		.button:hover {
 			background-color: #a5a5a5;
-			color: #ffffff !important;
+			color: #8AB9B5 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2379,8 +2379,8 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #4acaa8;
-			color: #ffffff !important;
+			background-color: #007082;
+			color: #8AB9B5 !important;
 		}
 
 			input[type="submit"].special:hover,
@@ -2449,7 +2449,7 @@
 /* Header */
 
 	#header {
-		background: #4acaa8;
+		background: #007082;
 		color: #d1f1e9;
 		height: 100%;
 		position: fixed;
@@ -2460,11 +2460,11 @@
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #8AB9B5;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #8AB9B5;
 			}
 
 		#header header p {
@@ -2476,7 +2476,7 @@
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #8AB9B5 !important;
 			}
 
 		#header > header {
@@ -2523,7 +2523,7 @@
 		}
 
 			#header > nav ul li {
-				border-top: solid 2px #5ccfb0;
+				border-top: solid 2px #EAFFDA;
 				display: block;
 				padding: 0;
 			}
@@ -2534,7 +2534,7 @@
 					-ms-transition: none;
 					transition: none;
 					border: 0;
-					color: #ffffff !important;
+					color: #8AB9B5 !important;
 					display: block;
 					padding: 0.85em 0;
 					text-decoration: none;
@@ -2542,7 +2542,7 @@
 
 					#header > nav ul li a.active {
 						background: #fff;
-						color: #4acaa8 !important;
+						color: #007082 !important;
 					}
 
 				#header > nav ul li:first-child {
@@ -2576,7 +2576,7 @@
 		background-image: url("../../images/banner.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 		content: '';
 		display: block;
 		height: 15em;
@@ -2821,8 +2821,8 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
-						color: #ffffff;
+						background: #007082;
+						color: #8AB9B5;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
